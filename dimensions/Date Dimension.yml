@@ -25,7 +25,7 @@ hierarchies:
         secondary_attributes:
           - unique_name: d_Custom_Quarter_Of_Year
             label: Custom Quarter Of Year
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_quarter_of_year_name
@@ -40,7 +40,7 @@ hierarchies:
         secondary_attributes:
           - unique_name: d_Custom_Month_Name
             label: Custom Month Name
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_month_name2
@@ -48,7 +48,7 @@ hierarchies:
             sort_column: rpt_month_name2
           - unique_name: d_Custom_Month_Of_Quarter
             label: Custom Month Of Quarter
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_month_of_quarter_name
@@ -56,7 +56,7 @@ hierarchies:
             sort_column: rpt_month_of_quarter_name
           - unique_name: d_Custom_Month_Of_Year
             label: Custom Month Of Year
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_month_of_year_name
@@ -71,7 +71,7 @@ hierarchies:
         secondary_attributes:
           - unique_name: d_Custom_Week_Of_Month
             label: Custom Week Of Month
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_week_of_month_name
@@ -79,7 +79,7 @@ hierarchies:
             sort_column: rpt_week_of_month_name
           - unique_name: d_Custom_Week_Of_Year
             label: Custom Week Of Year
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_week_of_year_name
@@ -94,7 +94,7 @@ hierarchies:
         secondary_attributes:
           - unique_name: d_Custom_Day_Of_Month
             label: Custom Day Of Month
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_day_of_month_name
@@ -102,7 +102,7 @@ hierarchies:
             sort_column: rpt_day_of_month_name
           - unique_name: d_Custom_Day_Of_Week
             label: Custom Day Of Week
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_day_of_week_name
@@ -110,7 +110,7 @@ hierarchies:
             sort_column: rpt_day_of_week_name
           - unique_name: d_Custom_Day_Of_Year
             label: Custom Day Of Year
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_day_of_year_name
@@ -126,7 +126,7 @@ hierarchies:
         secondary_attributes:
           - unique_name: d_quarter_number
             label: Quarter Number
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - quarter_of_year
@@ -135,7 +135,7 @@ hierarchies:
           - unique_name: year
             label: Year
             contains_unique_names: false
-            dataset: datecustom
+            dataset: DATECUSTOM
             is_unique_key: false
             key_columns:
               - year
@@ -144,7 +144,7 @@ hierarchies:
         secondary_attributes:
           - unique_name: d_month_of_year
             label: Month Of Year
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - month_of_year
@@ -155,7 +155,7 @@ hierarchies:
           - unique_name: d_day_of_month
             label: Day Of Month
             associated_hierarchy: Date Month Hierarchy
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - day_of_month
@@ -164,7 +164,7 @@ hierarchies:
           - unique_name: d_day_of_week_name
             label: Day Of Week Name
             associated_hierarchy: Date Month Hierarchy
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - day_of_week_name
@@ -173,7 +173,7 @@ hierarchies:
           - unique_name: d_day_of_week_number
             label: Day Of Week Number
             associated_hierarchy: Date Month Hierarchy
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - day_of_week
@@ -182,7 +182,7 @@ hierarchies:
           - unique_name: Day_Date
             label: Day Date
             associated_hierarchy: Date Month Hierarchy
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - pk_date
@@ -191,7 +191,7 @@ hierarchies:
           - unique_name: W_Day_Date
             label: W Day Date
             associated_hierarchy: Date Week Hierarchy
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - pk_date
@@ -200,7 +200,7 @@ hierarchies:
           - unique_name: w_day_of_week_name
             label: W Day Of Week Name
             associated_hierarchy: Date Week Hierarchy
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - day_of_week_name
@@ -209,7 +209,7 @@ hierarchies:
           - unique_name: w_day_of_week_number
             label: W Day Of Week Number
             associated_hierarchy: Date Week Hierarchy
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - day_of_week
@@ -225,7 +225,7 @@ hierarchies:
         secondary_attributes:
           - unique_name: d_week_of_year
             label: Week Of Year
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - week_of_year
@@ -243,7 +243,7 @@ hierarchies:
         secondary_attributes:
           - unique_name: rpt_Half_Year_Of_Year
             label: rpt Half Year Of Year
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_half_year_of_year
@@ -253,7 +253,7 @@ hierarchies:
         secondary_attributes:
           - unique_name: rpt_Quarter_Of_Year
             label: rpt Quarter Of Year
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_quarter_of_year
@@ -263,7 +263,7 @@ hierarchies:
         secondary_attributes:
           - unique_name: d_rpt_Month_Name
             label: rpt Month Name
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_month_name
@@ -271,7 +271,7 @@ hierarchies:
             sort_column: rpt_month_name2
           - unique_name: rpt_Month_Of_Quarter
             label: rpt Month Of Quarter
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_month_of_quarter
@@ -279,7 +279,7 @@ hierarchies:
             sort_column: rpt_month_of_quarter_name
           - unique_name: rpt_Month_Of_Year
             label: rpt Month Of Year
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_month_of_year
@@ -289,7 +289,7 @@ hierarchies:
         secondary_attributes:
           - unique_name: rpt_Week_Of_Month
             label: rpt Week Of Month
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_week_of_month
@@ -297,7 +297,7 @@ hierarchies:
             sort_column: rpt_week_of_month_name
           - unique_name: rpt_Week_Of_Year
             label: rpt Week Of Year
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_week_of_year
@@ -307,7 +307,7 @@ hierarchies:
         secondary_attributes:
           - unique_name: rpt_Day_Of_Month
             label: rpt Day Of Month
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_day_of_month
@@ -315,7 +315,7 @@ hierarchies:
             sort_column: rpt_day_of_month_name
           - unique_name: rpt_Day_Of_Week
             label: rpt Day Of Week
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_day_of_week
@@ -323,7 +323,7 @@ hierarchies:
             sort_column: rpt_day_of_week_name
           - unique_name: rpt_Day_Of_Year
             label: rpt Day Of Year
-            dataset: datecustom
+            dataset: DATECUSTOM
             folder: Date Attributes
             key_columns:
               - rpt_day_of_year
@@ -339,7 +339,7 @@ level_attributes:
       default ParallelPeriod logic.  A real custom ParallelPeriod hierarchy
       would have different parallel period key assignments to satisfy the rpt
       business's rpt comparison requirements.
-    dataset: datecustom
+    dataset: DATECUSTOM
     is_unique_key: true
     key_columns:
       - datekey
@@ -349,7 +349,7 @@ level_attributes:
   - unique_name: custommonth
     label: Custom Month
     description: Same as [Retail445].[rpt Month] but has a custom parallel period key.
-    dataset: datecustom
+    dataset: DATECUSTOM
     key_columns:
       - rpt_month
     name_column: rpt_month_name2
@@ -358,7 +358,7 @@ level_attributes:
   - unique_name: customquarter
     label: Custom Quarter
     description: Same as [Retail445].[rpt Quarter] but has a custom parallel period key.
-    dataset: datecustom
+    dataset: DATECUSTOM
     key_columns:
       - rpt_quarter
     name_column: rpt_quarter_name
@@ -367,7 +367,7 @@ level_attributes:
   - unique_name: customweek
     label: Custom Week
     description: Same as [Retail445].[rpt Week] but has a custom parallel period key.
-    dataset: datecustom
+    dataset: DATECUSTOM
     key_columns:
       - rpt_week
     name_column: rpt_week_name
@@ -376,7 +376,7 @@ level_attributes:
   - unique_name: customyear
     label: Custom Year
     description: Same as [Retail445].[rpt Year] but has a custom parallel period key.
-    dataset: datecustom
+    dataset: DATECUSTOM
     key_columns:
       - rpt_year
     name_column: rpt_year_name
@@ -385,7 +385,7 @@ level_attributes:
   - unique_name: DayMonth
     label: Day
     description: Day level of standard calendar Month Hierarchy
-    dataset: datecustom
+    dataset: DATECUSTOM
     is_unique_key: true
     key_columns:
       - datekey
@@ -394,7 +394,7 @@ level_attributes:
     time_unit: day
   - unique_name: Month1
     label: Month
-    dataset: datecustom
+    dataset: DATECUSTOM
     key_columns:
       - month
     name_column: month_name
@@ -403,7 +403,7 @@ level_attributes:
   - unique_name: rpt_Day
     label: rpt Day
     description: A Retail 4-4-5 calendar
-    dataset: datecustom
+    dataset: DATECUSTOM
     is_unique_key: true
     key_columns:
       - datekey
@@ -412,7 +412,7 @@ level_attributes:
     time_unit: day
   - unique_name: rpt_Half_Year
     label: rpt Half Year
-    dataset: datecustom
+    dataset: DATECUSTOM
     key_columns:
       - rpt_half_year
     name_column: rpt_half_year_name
@@ -420,7 +420,7 @@ level_attributes:
     time_unit: halfyear
   - unique_name: rpt_Month
     label: rpt Month
-    dataset: datecustom
+    dataset: DATECUSTOM
     key_columns:
       - rpt_month
     name_column: rpt_month_name2
@@ -428,7 +428,7 @@ level_attributes:
     time_unit: month
   - unique_name: rpt_Quarter
     label: rpt Quarter
-    dataset: datecustom
+    dataset: DATECUSTOM
     key_columns:
       - rpt_quarter
     name_column: rpt_quarter_name
@@ -437,7 +437,7 @@ level_attributes:
   - unique_name: rpt_Week
     label: rpt Week
     description: Week level of the 4-4-5 calendar
-    dataset: datecustom
+    dataset: DATECUSTOM
     key_columns:
       - rpt_week
     name_column: rpt_week_name
@@ -445,7 +445,7 @@ level_attributes:
     time_unit: week
   - unique_name: rpt_Year
     label: rpt Year
-    dataset: datecustom
+    dataset: DATECUSTOM
     key_columns:
       - rpt_year
     name_column: rpt_year_name
@@ -453,7 +453,7 @@ level_attributes:
     time_unit: year
   - unique_name: Week
     label: Week
-    dataset: datecustom
+    dataset: DATECUSTOM
     key_columns:
       - week
     name_column: week_name
@@ -462,7 +462,7 @@ level_attributes:
   - unique_name: YearMonth
     label: Year
     description: Year level of the Standard Calendar Month Hierarchy.
-    dataset: datecustom
+    dataset: DATECUSTOM
     key_columns:
       - year
     name_column: year_name
@@ -470,7 +470,7 @@ level_attributes:
     time_unit: year
   - unique_name: YearWeek
     label: Year
-    dataset: datecustom
+    dataset: DATECUSTOM
     key_columns:
       - year
     name_column: year_name
@@ -478,7 +478,7 @@ level_attributes:
     time_unit: year
   - unique_name: Quarter
     label: Quarter
-    dataset: datecustom
+    dataset: DATECUSTOM
     key_columns:
       - quarter
     name_column: quarter_name
