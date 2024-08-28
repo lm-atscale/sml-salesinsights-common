@@ -12,7 +12,7 @@ hierarchies:
         secondary_attributes:
           - unique_name: d_city
             label: City
-            dataset: dim_geo_city
+            dataset: DIM_GEO_CITY
             key_columns:
               - city
             name_column: city
@@ -27,7 +27,7 @@ hierarchies:
         secondary_attributes:
           - unique_name: d_postalcode
             label: Postal Code
-            dataset: dim_geo_postalcode
+            dataset: DIM_GEO_POSTALCODE
             key_columns:
               - postalcode
             name_column: postalcode
@@ -36,27 +36,27 @@ hierarchies:
 level_attributes:
   - unique_name: City
     label: City
-    dataset: dim_geo_city
+    dataset: DIM_GEO_CITY
     key_columns:
       - statekey
       - city
     name_column: citystatekey
   - unique_name: CountryCity
     label: Country
-    dataset: dim_geo_country
+    dataset: DIM_GEO_COUNTRY
     is_unique_key: true
     key_columns:
       - country
     name_column: country
   - unique_name: CountryZip
     label: Country
-    dataset: dim_geo_country
+    dataset: DIM_GEO_COUNTRY
     key_columns:
       - country
     name_column: country
   - unique_name: GeoKeyCity
     label: GeoKey
-    dataset: dim_geo_city
+    dataset: DIM_GEO_CITY
     is_hidden: true
     is_unique_key: true
     key_columns:
@@ -64,7 +64,7 @@ level_attributes:
     name_column: geographykey
   - unique_name: GeoKeyZip
     label: GeoKey
-    dataset: dim_geo_postalcode
+    dataset: DIM_GEO_POSTALCODE
     is_hidden: true
     is_unique_key: true
     key_columns:
@@ -72,14 +72,14 @@ level_attributes:
     name_column: geographykey
   - unique_name: State
     label: State
-    dataset: dim_geo_state
+    dataset: DIM_GEO_STATE
     is_unique_key: true
     key_columns:
       - statekey
     name_column: state
   - unique_name: Zip Code
     label: Zip Code
-    dataset: dim_geo_postalcode
+    dataset: DIM_GEO_POSTALCODE
     is_unique_key: true
     key_columns:
       - country
@@ -87,7 +87,7 @@ level_attributes:
     name_column: countrypostalcode
 relationships:
   - from:
-      dataset: dim_geo_city
+      dataset: DIM_GEO_CITY
       join_columns:
         - statekey
     to:
@@ -95,7 +95,7 @@ relationships:
       level: State
     type: snowflake
   - from:
-      dataset: dim_geo_postalcode
+      dataset: DIM_GEO_POSTALCODE
       join_columns:
         - country
     to:
@@ -103,16 +103,16 @@ relationships:
       level: CountryZip
     type: snowflake
   - from:
-      dataset: dim_geo_state
+      dataset: DIM_GEO_STATE
       join_columns:
         - country
     to:
       dimension: Geography Dimension
       level: CountryCity
     type: snowflake
-  - unique_name: dim_geo_state_country_to_Security Dim Country by User
+  - unique_name: DIM_GEO_STATE_country_to_Security Dim Country by User
     from:
-      dataset: dim_geo_state
+      dataset: DIM_GEO_STATE
       hierarchy: Geography City
       join_columns:
         - country
