@@ -1,0 +1,14 @@
+unique_name: DIM_GEO_CITY
+object_type: dataset
+label: DIM_GEO_CITY
+columns:
+  - name: geographykey
+    data_type: number
+  - name: city
+    data_type: string
+  - name: statekey
+    data_type: string
+  - name: citystatekey
+    data_type: string
+connection_id: common_connection
+table: DIM_GEO_CITY
