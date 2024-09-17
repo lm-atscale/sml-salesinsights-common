@@ -1,8 +1,0 @@
-unique_name: DIM_GEO_COUNTRY
-object_type: dataset
-label: DIM_GEO_COUNTRY
-columns:
-  - name: country
-    data_type: string
-connection_id: common_connection
-table: DIM_GEO_COUNTRY
