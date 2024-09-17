@@ -1,0 +1,6 @@
+unique_name: Salesinsights Common
+object_type: catalog
+label: Salesinsights Common
+aggressive_agg_promotion: false
+as_version: 1
+build_speculative_aggs: true
