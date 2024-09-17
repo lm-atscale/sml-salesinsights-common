@@ -1,6 +1,0 @@
-unique_name: common_connection
-object_type: connection
-label: con_hive_metastore_as_adventure
-as_connection: DATABRICKS
-database: hive_metastore
-schema: as_adventure
