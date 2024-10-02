@@ -150,7 +150,7 @@ hierarchies:
               - month_of_year
             name_column: month_of_year
             sort_column: month_of_year
-      - unique_name: DayWeek
+      - unique_name: DayMonth
         secondary_attributes:
           - unique_name: d_day_of_month
             label: Day Of Month
@@ -382,7 +382,7 @@ level_attributes:
     name_column: rpt_year_name
     sort_column: rpt_year
     time_unit: year
-  - unique_name: DayWeek
+  - unique_name: DayMonth
     label: Day
     description: Day level of standard calendar Month Hierarchy
     dataset: DATECUSTOM
@@ -476,6 +476,16 @@ level_attributes:
     name_column: year_name
     sort_column: year
     time_unit: year
+  - unique_name: DayWeek
+    label: Day
+    description: Day level of standard calendar week Hierarchy
+    dataset: DATECUSTOM
+    is_unique_key: true
+    key_columns:
+      - datekey
+    name_column: date_name
+    sort_column: datekey
+    time_unit: day
   - unique_name: Quarter
     label: Quarter
     dataset: DATECUSTOM
