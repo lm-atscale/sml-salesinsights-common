@@ -150,7 +150,7 @@ hierarchies:
               - month_of_year
             name_column: month_of_year
             sort_column: month_of_year
-      - unique_name: DayMonth
+      - unique_name: DayWeek
         secondary_attributes:
           - unique_name: d_day_of_month
             label: Day Of Month
@@ -231,7 +231,7 @@ hierarchies:
               - week_of_year
             name_column: week_of_year
             sort_column: week_of_year
-      - unique_name: DayMonth
+      - unique_name: DayWeek
   - unique_name: Retail445
     label: Retail445
     description: A Retail 4-4-5 calendar
@@ -382,7 +382,7 @@ level_attributes:
     name_column: rpt_year_name
     sort_column: rpt_year
     time_unit: year
-  - unique_name: DayMonth
+  - unique_name: DayWeek
     label: Day
     description: Day level of standard calendar Month Hierarchy
     dataset: DATECUSTOM
